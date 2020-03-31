@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <group
+        android:id="@+id/group_feature"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile_item"
+            android:checked="true"
+            android:title="PROFILE" />
+
+
+        <item
+            android:id="@+id/schemes_item"
+            android:checked="true"
+            android:title="SCHEMES" />
+
+        <item
+            android:id="@+id/scholarship_item"
+            android:checked="true"
+            android:title="SCHOLARSHIP" />
+
+        <item
+            android:id="@+id/research_proposal_item"
+            android:checked="true"
+            android:title="RESEARCH PROPOSAL" />
+
+    </group>
+    <group
+        android:id="@+id/auth_feature"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/signOut_item"
+            android:checked="true"
+            android:title="SIGN OUT" />
+
+
+    </group>
+</menu>
